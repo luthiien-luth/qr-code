@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Outfit", sans-serif;
+	background-color: hsl(212, 45%, 89%);
+}
+
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 460px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 20px;
+	box-shadow: 1px 7px 40px 10px hsl(220deg 17% 85%);
+}
+
+.box__img {
+	padding: 15px;
+	width: 300px;
+	height: 300px;
+}
+
+.box__img--qr {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+
+.box__title {
+	margin: 10px 20px 15px;
+	text-align: center;
+	color: hsl(218, 44%, 22%);
+}
+
+.box__info {
+	margin: 15px 20px 20px;
+	text-align: center;
+	font-size: 15px;
+	color: hsl(220, 15%, 55%);
+}
+
+/* The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px */
